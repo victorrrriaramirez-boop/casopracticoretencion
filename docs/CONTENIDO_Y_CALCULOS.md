@@ -83,3 +83,87 @@ Ejemplo: 20 % durante 12 meses equivale al 20 % anual; 50 % durante 2 meses equi
 - 2026 (enero–septiembre): (3.385,3667 / 28.143) × 100 = 12,0292 % → 12,0 %
 
 12,0292 % − 13,7131 % = −1,6840 puntos porcentuales → −1,7 p. p. La suma de e está expresada en proporciones equivalentes: no son euros ni clientes. Este indicador mide intensidad nominal del descuento, no coste real ni margen.
+
+
+## Cálculos visibles del punto 5
+
+### Peso del motivo «Mal servicio»
+
+Filtro: enero–febrero de cada año. Numerador: solicitudes con Motivo = «Mal servicio». Denominador: todas las solicitudes de esos dos meses. Fórmula: numerador / denominador × 100.
+
+2025: 2.083 / 14.971 × 100 = 13,9 %.
+
+2026: 4.757 / 15.764 × 100 = 30,2 %.
+
+Mide el peso de un motivo entre las solicitudes, no su tasa de retención.
+
+### Solicitudes por «Tiempo de respuesta»
+
+Filtro: enero–febrero de cada año, Motivo = «Mal servicio» y Submotivo = «Tiempo de respuesta». Cálculo: contar los ID de solicitud que cumplen los tres filtros.
+
+2025: 1.186 solicitudes.
+
+2026: 3.855 solicitudes.
+
+Son recuentos de solicitudes: no son minutos de espera ni clientes únicos.
+
+### Retención del motivo «Económico»
+
+Filtro: julio–septiembre de cada año y Motivo = «Económico». Fórmula: solicitudes de ese motivo con Resultado = «Retenido» / todas las solicitudes de ese motivo × 100.
+
+2025: 4.858 / 6.885 × 100 = 70,6 %.
+
+2026: 3.634 / 7.124 × 100 = 51,0 %.
+
+El denominador es el total del motivo económico en ese trimestre, no el total de solicitudes de todos los motivos.
+
+### Desaparición del descuento del 40 %
+
+Filtro: Descuento concedido (%) = 40. Cálculo: contar solicitudes por el campo Mes y comprobar cuándo deja de haber registros.
+
+Junio de 2026: 682 solicitudes con un descuento concedido del 40 %.
+
+Julio, agosto y septiembre de 2026: 0 en cada mes. Octubre: 0 hasta el día 15.
+
+Es una observación sobre descuentos concedidos. No prueba la fecha de una decisión de catálogo ni su efecto causal: habría que contrastarlo con Operaciones y Tecnología.
+
+
+## Cálculos visibles del punto 6
+
+### Retención por canal, uso y antigüedad
+
+Filtro común: enero–septiembre de cada año. Para cada fila, añado el filtro del segmento. Fórmula: solicitudes del segmento con Resultado = «Retenido» / total de solicitudes del mismo segmento × 100.
+
+Enero–septiembre de 2025:
+Canal = Escrito: 4.378 / 11.803 × 100 = 37,1 %.
+Canal = Teléfono: 25.488 / 48.369 × 100 = 52,7 %.
+Uso último año = Sin uso: 17.407 / 40.302 × 100 = 43,2 %.
+Antigüedad = 0–3 meses: 3.040 / 8.436 × 100 = 36,0 %.
+
+Enero–septiembre de 2026:
+Canal = Escrito: 5.693 / 17.619 × 100 = 32,3 %.
+Canal = Teléfono: 22.450 / 45.834 × 100 = 49,0 %.
+Uso último año = Sin uso: 16.001 / 42.518 × 100 = 37,6 %.
+Antigüedad = 0–3 meses: 2.807 / 8.853 × 100 = 31,7 %.
+
+Cada tasa tiene su propio denominador. Una misma solicitud puede pertenecer a Escrito, Sin uso y 0–3 meses; no se suman esos segmentos.
+
+### Peso del canal escrito en el volumen
+
+Filtro: enero–septiembre de cada año. Fórmula: solicitudes con Canal = «Escrito» / total de solicitudes del periodo × 100.
+
+2025: 11.803 / 60.172 × 100 = 19,6 %.
+
+2026: 17.619 / 63.453 × 100 = 27,8 %.
+
+Aquí se mide el peso del canal, incluyendo solicitudes retenidas y no retenidas. Es distinto de su tasa de retención.
+
+### Volumen y peso del motivo «No lo usa»
+
+Filtro: enero–septiembre de 2026 y Motivo = «No lo usa». Volumen: contar las solicitudes filtradas. Peso: ese recuento / todas las solicitudes del periodo × 100.
+
+Volumen en 2026: 19.387 solicitudes.
+
+Peso en 2026: 19.387 / 63.453 × 100 = 30,6 %.
+
+«No lo usa» es un motivo de solicitud; «Sin uso» es una categoría del campo Uso último año (42.518 solicitudes en enero–septiembre de 2026). Son variables distintas y no se intercambian.

@@ -105,3 +105,8 @@ Comprobados: sintaxis de JavaScript, generación de `dist`, conservación del co
 ## Actualización: cálculo visible de los cuatro indicadores
 
 El capítulo 03 incluye ahora las fórmulas, numeradores y denominadores, sustitución numérica para enero–septiembre de ambos años y diferencias. Se conserva el resto del contenido. Para actualizar un repositorio ya publicado, sustituye `public/index.html`, `public/styles.css` y `docs/CONTENIDO_Y_CALCULOS.md` (y este README). No subas el ZIP como un archivo a GitHub: descomprímelo y sube su contenido dentro de la raíz del proyecto existente. Vercel reconstruirá la web al recibir el commit si está conectado al repositorio.
+
+
+## Actualización de los puntos 5 y 6
+
+Los capítulos Diagnóstico y Segmentos incorporan filtros, recuentos, numeradores y denominadores. Se explica la diferencia entre tasa de retención y peso del segmento, y entre Uso último año = Sin uso y Motivo = No lo usa. El guion oral actualizado se incluye en `docs/Guion_Oral_Presentacion_Web_Legalitas.pdf`. Sustituye también este archivo y `docs/CONTENIDO_Y_CALCULOS.md` al actualizar tu repositorio.
