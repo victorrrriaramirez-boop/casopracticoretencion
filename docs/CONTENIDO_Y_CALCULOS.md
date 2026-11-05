@@ -34,3 +34,52 @@ La tabla mensual del final añade soporte verificable sin alargar la exposición
 ## Contenido que permanece fuera de la exposición
 
 La guía es preparación personal: no está incorporada al relato público ni exige leerla durante la entrevista. El PDF y el Excel se ofrecen como apoyo. No es necesario enseñar todas las tablas: explica el criterio y abre los cálculos si te preguntan.
+
+
+## Cálculos visibles añadidos al capítulo 03
+
+Se mantienen las cuatro tarjetas y sus motivos de seguimiento. Debajo se muestra, sin desplegables, la fórmula, el denominador, las cifras de ambos años y la variación.
+
+### Volumen de solicitudes
+
+Contar los ID de solicitud del periodo seleccionado.
+
+Cada solicitud se cuenta una vez; no equivale a clientes únicos.
+
+- 2025 (enero–septiembre): N.º de solicitudes = 60.172
+- 2026 (enero–septiembre): N.º de solicitudes = 63.453
+
+(63.453 − 60.172) / 60.172 × 100 = +5,45 % → +5,5 %. Es una variación relativa.
+
+### Tasa de retención
+
+Solicitudes con resultado «Retenido» / total de solicitudes × 100.
+
+El denominador incluye todas las solicitudes del periodo, retenidas y no retenidas.
+
+- 2025 (enero–septiembre): 29.866 / 60.172 × 100 = 49,6344 % → 49,6 %
+- 2026 (enero–septiembre): 28.143 / 63.453 × 100 = 44,3525 % → 44,4 %
+
+44,3525 % − 49,6344 % = −5,2819 puntos porcentuales → −5,3 p. p.
+
+### Frecuencia de descuentos
+
+Solicitudes retenidas con descuento mayor que 0 / total de retenidas × 100.
+
+Mide cuántas retenciones necesitan una concesión; no se divide entre todas las solicitudes.
+
+- 2025 (enero–septiembre): 14.487 / 29.866 × 100 = 48,5067 % → 48,5 %
+- 2026 (enero–septiembre): 13.498 / 28.143 × 100 = 47,9622 % → 48,0 %
+
+47,9622 % − 48,5067 % = −0,5445 puntos porcentuales → −0,5 p. p.
+
+### Descuento equivalente anual por retenida
+
+Para cada retenida: e = (descuento % / 100) × (meses de descuento / 12). Indicador (%) = (suma de e / total de retenidas) × 100.
+
+Ejemplo: 20 % durante 12 meses equivale al 20 % anual; 50 % durante 2 meses equivale al 8,33 %. Las retenidas sin descuento aportan cero y se incluyen en el denominador.
+
+- 2025 (enero–septiembre): (4.095,5667 / 29.866) × 100 = 13,7131 % → 13,7 %
+- 2026 (enero–septiembre): (3.385,3667 / 28.143) × 100 = 12,0292 % → 12,0 %
+
+12,0292 % − 13,7131 % = −1,6840 puntos porcentuales → −1,7 p. p. La suma de e está expresada en proporciones equivalentes: no son euros ni clientes. Este indicador mide intensidad nominal del descuento, no coste real ni margen.
