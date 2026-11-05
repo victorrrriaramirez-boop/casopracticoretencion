@@ -110,3 +110,8 @@ El capítulo 03 incluye ahora las fórmulas, numeradores y denominadores, sustit
 ## Actualización de los puntos 5 y 6
 
 Los capítulos Diagnóstico y Segmentos incorporan filtros, recuentos, numeradores y denominadores. Se explica la diferencia entre tasa de retención y peso del segmento, y entre Uso último año = Sin uso y Motivo = No lo usa. El guion oral actualizado se incluye en `docs/Guion_Oral_Presentacion_Web_Legalitas.pdf`. Sustituye también este archivo y `docs/CONTENIDO_Y_CALCULOS.md` al actualizar tu repositorio.
+
+
+## Versión de presentación breve
+
+Los cálculos detallados de los capítulos 3, 5 y 6 están ahora en desplegables cerrados por defecto. Las cifras clave, definiciones, conclusiones y acciones se mantienen visibles. Se conserva el guion anterior como material de ensayo: sus referencias a los bloques de cálculo corresponden ahora a esos desplegables. No es necesario abrirlos ni leer las páginas de respaldo durante la exposición. Actualiza `public/index.html`, `public/styles.css` y la documentación; esta versión prevalece sobre las notas anteriores que indicaban que todas las operaciones estaban desplegadas.

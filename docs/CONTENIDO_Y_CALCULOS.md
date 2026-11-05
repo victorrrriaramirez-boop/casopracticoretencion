@@ -167,3 +167,8 @@ Volumen en 2026: 19.387 solicitudes.
 Peso en 2026: 19.387 / 63.453 × 100 = 30,6 %.
 
 «No lo usa» es un motivo de solicitud; «Sin uso» es una categoría del campo Uso último año (42.518 solicitudes en enero–septiembre de 2026). Son variables distintas y no se intercambian.
+
+
+## Presentación breve: pocos números, bien explicados
+
+La versión actual conserva en primer plano los cuatro indicadores, sus definiciones y motivos de seguimiento, los dos hallazgos del diagnóstico y la tabla de segmentos con las acciones. Los desarrollos numéricos de los puntos 3, 5 y 6 se conservan completos en desplegables cerrados al cargar la página. Se mantiene visible la fórmula general de retención por segmento y el ajuste anual del descuento. Para exponer, sigue el relato principal y abre el respaldo únicamente cuando ayude a explicar una pregunta. Los recuentos secundarios y pesos de los segmentos están dentro de esos desplegables. Esta organización sustituye las indicaciones anteriores que describían todos los cálculos como visibles sin desplegables.
