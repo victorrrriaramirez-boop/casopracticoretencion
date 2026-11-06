@@ -52,7 +52,7 @@
     let current=0;
     chapters.forEach((s,i)=>{if(s.getBoundingClientRect().top<=marker)current=i;});
     active=current;
-    document.getElementById('chapter-counter').textContent=String(active+1).padStart(2,'0')+' / 11';
+    document.getElementById('chapter-counter').textContent=String(active+1).padStart(2,'0')+' / '+chapters.length;
     document.getElementById('previous').disabled=active===0;
     document.getElementById('next').disabled=active===chapters.length-1;
     document.querySelectorAll('[data-chapter]').forEach(a=>{if(Number(a.dataset.chapter)===active)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');});

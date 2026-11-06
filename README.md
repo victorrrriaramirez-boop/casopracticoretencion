@@ -115,3 +115,8 @@ Los capítulos Diagnóstico y Segmentos incorporan filtros, recuentos, numerador
 ## Versión de presentación breve
 
 Los cálculos detallados de los capítulos 3, 5 y 6 están ahora en desplegables cerrados por defecto. Las cifras clave, definiciones, conclusiones y acciones se mantienen visibles. Se conserva el guion anterior como material de ensayo: sus referencias a los bloques de cálculo corresponden ahora a esos desplegables. No es necesario abrirlos ni leer las páginas de respaldo durante la exposición. Actualiza `public/index.html`, `public/styles.css` y la documentación; esta versión prevalece sobre las notas anteriores que indicaban que todas las operaciones estaban desplegadas.
+
+
+## Actualización: diagnóstico unificado
+
+Presentación y guion tienen ahora 10 capítulos. Los antiguos puntos 5 y 6 se unifican y los desgloses adicionales pasan a Material de apoyo. Sustituye `public/index.html`, `public/styles.css`, `public/app.js` y el contenido de `docs/`. No es necesario cambiar la configuración de Vercel. La web y el guion son la versión vigente; el PDF de presentación original es apoyo de la versión inicial.

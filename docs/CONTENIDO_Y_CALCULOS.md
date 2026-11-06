@@ -172,3 +172,8 @@ Peso en 2026: 19.387 / 63.453 × 100 = 30,6 %.
 ## Presentación breve: pocos números, bien explicados
 
 La versión actual conserva en primer plano los cuatro indicadores, sus definiciones y motivos de seguimiento, los dos hallazgos del diagnóstico y la tabla de segmentos con las acciones. Los desarrollos numéricos de los puntos 3, 5 y 6 se conservan completos en desplegables cerrados al cargar la página. Se mantiene visible la fórmula general de retención por segmento y el ajuste anual del descuento. Para exponer, sigue el relato principal y abre el respaldo únicamente cuando ayude a explicar una pregunta. Los recuentos secundarios y pesos de los segmentos están dentro de esos desplegables. Esta organización sustituye las indicaciones anteriores que describían todos los cálculos como visibles sin desplegables.
+
+
+## Estructura vigente: 10 capítulos
+
+Los antiguos capítulos 5 y 6 se unifican en «Dónde empeora la retención y qué haría». Dos ejemplos: retención del motivo Económico en julio–septiembre (70,6 % a 51,0 %) y del canal Escrito en enero–septiembre (37,1 % a 32,3 %). Cada ejemplo incluye una hipótesis, una acción y cálculo consultable. Los desgloses previos se conservan cerrados en Material de apoyo. Los antiguos capítulos 7–11 pasan a ser 6–10. El guion breve actualizado sigue esta numeración. Esta estructura sustituye las referencias anteriores a 11 capítulos.

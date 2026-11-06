@@ -12,3 +12,5 @@
 
 /* Supporting calculations stay closed during the main presentation. */
 .calculation-support{margin-top:1.6rem;border-top:1px solid #d9d4cb;border-bottom:1px solid #d9d4cb;background:transparent}.calculation-support>summary{display:flex;align-items:center;justify-content:space-between;gap:1rem;cursor:pointer;list-style:none;padding:1.1rem .1rem;color:#ad2943;font-size:.95rem;font-weight:600}.calculation-support>summary::-webkit-details-marker{display:none}.calculation-support>summary span{font-size:1.4rem;transition:transform .2s}.calculation-support[open]>summary span{transform:rotate(45deg)}.calculation-support>summary:focus-visible{outline:2px solid #ad2943;outline-offset:4px}.calculation-support .calculations{margin-top:1rem}.calculation-support:not([open])>.calculations{display:none}@media(prefers-reduced-motion:reduce){.calculation-support>summary span{transition:none}}
+
+.focus-number{font-size:clamp(1.65rem,3vw,2.6rem);font-weight:700;letter-spacing:-.03em;color:var(--wine);line-height:1.2}.additional-analysis{padding:1.5rem 0}.additional-analysis>h3{margin-top:2rem}.additional-analysis .chapter-body{width:100%;min-width:0}
