@@ -120,3 +120,8 @@ Los cálculos detallados de los capítulos 3, 5 y 6 están ahora en desplegables
 ## Actualización: diagnóstico unificado
 
 Presentación y guion tienen ahora 10 capítulos. Los antiguos puntos 5 y 6 se unifican y los desgloses adicionales pasan a Material de apoyo. Sustituye `public/index.html`, `public/styles.css`, `public/app.js` y el contenido de `docs/`. No es necesario cambiar la configuración de Vercel. La web y el guion son la versión vigente; el PDF de presentación original es apoyo de la versión inicial.
+
+
+## Presentación visual
+
+Se mantienen los diez capítulos y el guion. El contenido principal utiliza cifras destacadas, comparaciones gráficas y pasos breves. Los textos completos de método, acciones, argumentario, catálogo, coste y seguimiento se conservan en desplegables. Actualiza `public/index.html` y `public/styles.css`. Los cálculos y el Excel no cambian.
