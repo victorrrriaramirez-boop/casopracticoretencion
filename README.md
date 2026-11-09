@@ -125,3 +125,8 @@ Presentación y guion tienen ahora 10 capítulos. Los antiguos puntos 5 y 6 se u
 ## Presentación visual
 
 Se mantienen los diez capítulos y el guion. El contenido principal utiliza cifras destacadas, comparaciones gráficas y pasos breves. Los textos completos de método, acciones, argumentario, catálogo, coste y seguimiento se conservan en desplegables. Actualiza `public/index.html` y `public/styles.css`. Los cálculos y el Excel no cambian.
+
+
+## Estética inspirada en Legálitas
+
+Paleta verde petróleo, blanco y gris claro; tipografía Poppins incorporada localmente en `public/fonts/`, sin depender de una descarga durante la presentación. Sustituye toda la carpeta `public/` para incluir las fuentes y `fonts.css`. Se mantienen los datos del ejercicio, el guion y la identificación como presentación de candidatura.
